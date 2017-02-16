@@ -1,0 +1,172 @@
+.entry
+  .gist
+    background #eee
+    border 1px solid color-border
+    margin-top 15px
+    padding 7px 15px
+    border-radius 2px
+    text-shadow 0 0 1px #fff
+    line-height 1.6
+    overflow auto
+    color #666
+    .gist-file
+      border none
+      font-family inherit
+      margin 0
+      font-size 0.9em
+      .gist-data
+        background none
+        border-bottom none
+        pre
+          padding 0 !important
+          font-family font-mono
+      .gist-meta
+        background none
+        color color-meta
+        margin-top 5px
+        padding 0
+        text-shadow 0 0 1px #fff
+        font-size 100%
+        a
+          color color-link
+          &:visited
+            color color-link
+
+figure.highlight
+  background #FFF
+  border 1px solid color-border
+  margin-top 15px
+  padding 7px 15px
+  border-radius 2px
+  text-shadow 0 0 1px #fff
+  line-height 1.6
+  overflow auto
+  position relative
+  font-size 0.9em
+  figcaption
+    color color-meta
+    margin-bottom 5px
+    text-shadow 0 0 1px #fff
+    a
+      position absolute
+      right 15px
+
+  pre
+    border none
+    padding 0
+    margin 0
+
+  table
+    margin-top 0
+    border-spacing 0
+    border-left 3px solid rgb(255, 89, 242)
+
+  .gutter
+    color color-meta
+    padding-right 15px
+    border-right 1px solid color-border
+    text-align right
+
+  .code
+    padding-left 15px
+    border-left 1px solid #fff
+    color #666
+
+// More theme here: http://softwaremaniacs.org/media/soft/highlight/test.html
+/*
+ * Visual Studio-like style based on original C# coloring by Jason Diamond <jason@diamond.name>
+ */
+pre
+  code
+    display block
+    padding 0.5em
+
+pre
+  .comment,
+  .annotation,
+  .template_comment,
+  .diff .header,
+  .chunk,
+  .apache .cbracket
+    color rgb(0, 128, 0)
+
+pre
+  .keyword,
+  .id,
+  .built_in,
+  .smalltalk .class,
+  .winutils,
+  .bash .variable,
+  .tex .command,
+  .request,
+  .status,
+  .nginx .title,
+  .xml .tag,
+  .xml .tag .value
+    color rgb(0, 0, 255)
+
+pre
+  .string,
+  .title,
+  .parent,
+  .tag .value,
+  .rules .value,
+  .rules .value .number,
+  .ruby .symbol,
+  .ruby .symbol .string,
+  .aggregate,
+  .template_tag,
+  .django .variable,
+  .addition,
+  .flow,
+  .stream,
+  .apache .tag,
+  .date,
+  .tex .formula,
+  .coffeescript .attribute
+    color rgb(163, 21, 21)
+
+pre
+  .ruby .string,
+  .decorator,
+  .filter .argument,
+  .localvars,
+  .array,
+  .attr_selector,
+  .pseudo,
+  .pi,
+  .doctype,
+  .deletion,
+  .envvar,
+  .shebang,
+  .preprocessor,
+  .userType,
+  .apache .sqbracket,
+  .nginx .built_in,
+  .tex .special,
+  .prompt
+    color rgb(43, 145, 175)
+
+pre
+  .phpdoc,
+  .javadoc,
+  .xmlDocTag
+    color rgb(128, 128, 128)
+
+pre
+  .vhdl .typename
+    font-weight bold
+pre
+  .vhdl .string
+    color #666666
+pre
+  .vhdl .literal
+    color rgb(163, 21, 21)
+pre
+  .vhdl .attribute
+    color #00B0E8
+
+pre
+  .xml .attribute
+    color rgb(255, 0, 0)
+

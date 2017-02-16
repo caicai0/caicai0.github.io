@@ -1,0 +1,25 @@
+<ul class="page-direction" id="page-direction">
+    <li><a class="page-prev" href="javascript:;" title="<%= __('prev') %>">
+      <span class="icon-stack">
+        <i class="icon-circle icon-stack-base"></i>
+        <i class="icon-angle-left"></i>
+      </span>
+    <li><a class="page-next" href="javascript:;" title="<%= __('next') %>">
+      <span class="icon-stack">
+        <i class="icon-circle icon-stack-base"></i>
+        <i class="icon-angle-right"></i>
+      </span>
+    </a></li>
+</ul>
+<% if (page.prev||page.next){ %>
+    <nav id="page-list" class="page-list"><%- paginator() %></nav>
+<% } %>
+<nav id="pagination">
+  <% if (page.prev){ %>
+    <a href="<%- config.root %><%- page.prev_link %>" class="alignleft prev"><%= __('prev') %></a>
+  <% } %>
+  <% if (page.next){ %>
+    <a href="<%- config.root %><%- page.next_link %>" class="alignright next"><%= __('next') %></a>
+  <% } %>
+  <div class="clearfix"></div>
+</nav>
