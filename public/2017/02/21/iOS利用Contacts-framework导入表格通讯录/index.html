@@ -3,14 +3,21 @@
 <head>
   <meta charset="utf-8">
   
-  <title>caicai0.github.io</title>
+  <title>iOS利用Contacts.framework导入表格通讯录 | caicai0.github.io</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="caicai0.github.io">
-<meta property="og:url" content="https://caicai0.github.io/index.html">
+  <meta name="description" content="#故事背景公司有有个excel文件保存更新公司成员的通讯信息。每次修改都不知道改了哪里，而且手工一个一个往通讯录里面添加，两个就没有耐心了。因为有时候这些信息还真的会用到，为了用的时候不抓瞎，只能想办法导入到通讯录。
+#过程公司通讯录结构还是很复杂的，有姓名、电话、手机、邮箱、部门、职位。幸好这些在iphone系统通讯录里面都可以有。这个时候问题来了excel文件ios不知道怎么处理？我的处理办法">
+<meta property="og:type" content="article">
+<meta property="og:title" content="iOS利用Contacts.framework导入表格通讯录">
+<meta property="og:url" content="https://caicai0.github.io/2017/02/21/iOS利用Contacts-framework导入表格通讯录/index.html">
 <meta property="og:site_name" content="caicai0.github.io">
+<meta property="og:description" content="#故事背景公司有有个excel文件保存更新公司成员的通讯信息。每次修改都不知道改了哪里，而且手工一个一个往通讯录里面添加，两个就没有耐心了。因为有时候这些信息还真的会用到，为了用的时候不抓瞎，只能想办法导入到通讯录。
+#过程公司通讯录结构还是很复杂的，有姓名、电话、手机、邮箱、部门、职位。幸好这些在iphone系统通讯录里面都可以有。这个时候问题来了excel文件ios不知道怎么处理？我的处理办法">
+<meta property="og:updated_time" content="2017-02-21T05:37:20.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="caicai0.github.io">
+<meta name="twitter:title" content="iOS利用Contacts.framework导入表格通讯录">
+<meta name="twitter:description" content="#故事背景公司有有个excel文件保存更新公司成员的通讯信息。每次修改都不知道改了哪里，而且手工一个一个往通讯录里面添加，两个就没有耐心了。因为有时候这些信息还真的会用到，为了用的时候不抓瞎，只能想办法导入到通讯录。
+#过程公司通讯录结构还是很复杂的，有姓名、电话、手机、邮箱、部门、职位。幸好这些在iphone系统通讯录里面都可以有。这个时候问题来了excel文件ios不知道怎么处理？我的处理办法">
   
     <link rel="alternative" href="/atom.xml" title="caicai0.github.io" type="application/atom+xml">
   
@@ -24,9 +31,6 @@
   <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   
-    
-    
-  
   
       <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
   
@@ -38,8 +42,8 @@
           rootUrl: '/',
           fancybox: true,
           animate: true,
-          isHome: true,
-          isPost: false,
+          isHome: false,
+          isPost: true,
           isArchive: false,
           isTag: false,
           isCategory: false,
@@ -227,9 +231,7 @@
         </header>                
     </div>
 </nav>
-      <div class="body-wrap">
-  
-    <article id="post-iOS利用Contacts-framework导入表格通讯录" class="article article-type-post" itemscope itemprop="blogPost">
+      <div class="body-wrap"><article id="post-iOS利用Contacts-framework导入表格通讯录" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
       <a href="/2017/02/21/iOS利用Contacts-framework导入表格通讯录/" class="article-date">
@@ -245,12 +247,23 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/02/21/iOS利用Contacts-framework导入表格通讯录/">iOS利用Contacts.framework导入表格通讯录</a>
+    <h1 class="article-title" itemprop="name">
+      iOS利用Contacts.framework导入表格通讯录
     </h1>
   
 
       </header>
+      
+      <div class="article-info article-info-post">
+        
+
+        
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ios-contacts-framework-excel-通讯录/">ios,contacts.framework,excel,通讯录</a></li></ul>
+    </div>
+
+        <div class="clearfix"></div>
+      </div>
       
     
     <div class="article-entry" itemprop="articleBody">
@@ -317,114 +330,163 @@
       
     </div>
     
-    <div class="article-info article-info-index">
-      
-      
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ios-contacts-framework-excel-通讯录/">ios,contacts.framework,excel,通讯录</a></li></ul>
-    </div>
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
   </div>
+  
+    
+    <div class="copyright">
+        <p><span>本文标题:</span><a href="/2017/02/21/iOS利用Contacts-framework导入表格通讯录/">iOS利用Contacts.framework导入表格通讯录</a></p>
+        <p><span>文章作者:</span><a href="/" title="访问 liyufeng 的个人博客">liyufeng</a></p>
+        <p><span>发布时间:</span>2017年02月21日 - 13时33分</p>
+        <p><span>最后更新:</span>2017年02月21日 - 13时37分</p>
+        <p>
+            <span>原始链接:</span><a class="post-url" href="/2017/02/21/iOS利用Contacts-framework导入表格通讯录/" title="iOS利用Contacts.framework导入表格通讯录">https://caicai0.github.io/2017/02/21/iOS利用Contacts-framework导入表格通讯录/</a>
+            <span class="copy-path" data-clipboard-text="原文: https://caicai0.github.io/2017/02/21/iOS利用Contacts-framework导入表格通讯录/　　作者: liyufeng" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
+            <script src="/js/clipboard.min.js"></script>
+            <script> var clipboard = new Clipboard('.copy-path'); </script>
+        </p>
+        <p>
+            <span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/" title="中国大陆 (CC BY-NC-SA 3.0 CN)" target = "_blank">"署名-非商用-相同方式共享 3.0"</a> 转载请保留原文链接及作者。
+        </p>
+    </div>
+
+
+
+<nav id="article-nav">
+  
+  
+    <a href="/2017/02/13/树莓派保持网络连接shell脚本/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">树莓派保持网络连接shell脚本</div>
+      <strong class="article-nav-caption">></strong>
+    </a>
+  
+</nav>
+
   
 </article>
 
-
-
-
-
-
-
-
-
-  
-    <article id="post-树莓派保持网络连接shell脚本" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2017/02/13/树莓派保持网络连接shell脚本/" class="article-date">
-      <time datetime="2017-02-13T01:20:06.000Z" itemprop="datePublished">2017-02-13</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
+    <div id="toc" class="toc-article">
+    <strong class="toc-title">文章目录</strong>
     
-      <input type="hidden" class="isFancy" />
+</div>
+<input type="button" id="tocButton" value="隐藏目录"  title="点击按钮隐藏或者显示文章目录">
+
+<script src="https://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
+<script>
+    var valueHide = "隐藏目录";
+    var valueShow = "显示目录";
+
+    if ($(".left-col").is(":hidden")) {
+        $("#tocButton").attr("value", valueShow);
+    }
+    $("#tocButton").click(function() {
+        if ($("#toc").is(":hidden")) {
+            $("#tocButton").attr("value", valueHide);
+            $("#toc").slideDown(320);
+        }
+        else {
+            $("#tocButton").attr("value", valueShow);
+            $("#toc").slideUp(350);
+        }
+    })
+    if ($(".toc").length < 1) {
+        $("#toc, #tocButton").hide();
+    }
+</script>
+
+
+    <style>
+        .toc {
+            white-space: nowrap;
+            overflow-x: hidden;
+        }
+    </style>
+
+    <script>
+        $(document).ready(function() {
+            $(".toc li a").mouseover(function() {
+                var title = $(this).attr('href');
+                $(this).attr("title", title);
+            });
+        })
+    </script>
+
+
+
+
+<div class="bdsharebuttonbox">
+	<a href="#" class="fx fa-weibo bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+	<a href="#" class="fx fa-weixin bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+	<a href="#" class="fx fa-qq bds_sqq" data-cmd="sqq" title="分享到QQ好友"></a>
+	<a href="#" class="fx fa-facebook-official bds_fbook" data-cmd="fbook" title="分享到Facebook"></a>
+	<a href="#" class="fx fa-twitter bds_twi" data-cmd="twi" title="分享到Twitter"></a>
+	<a href="#" class="fx fa-linkedin bds_linkedin" data-cmd="linkedin" title="分享到linkedin"></a>
+	<a href="#" class="fx fa-files-o bds_copy" data-cmd="copy" title="分享到复制网址"></a>
+</div>
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"2","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+
+
+
+
     
+      <div class="duoshuo" id="comments">
+    <!-- 多说评论框 start -->
+    <div class="ds-thread" data-thread-key="2017/02/21/iOS利用Contacts-framework导入表格通讯录/" data-title="iOS利用Contacts.framework导入表格通讯录" data-url="https://caicai0.github.io/2017/02/21/iOS利用Contacts-framework导入表格通讯录/"></div>
+    <!-- 多说评论框 end -->
+    <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+    <script type="text/javascript">
+    var duoshuoQuery = {short_name:"null"};
+    (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = '/js/embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0] 
+         || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+    </script>
+    <!-- 多说公共JS代码 end -->
+</div>
+
     
-      <header class="article-header">
+
+
+
+    <div class="scroll" id="post-nav-button">
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/02/13/树莓派保持网络连接shell脚本/">树莓派保持网络连接shell脚本</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-          
-        <p>#树莓派保持网络连接shell脚本</p>
-<p>##故事背景</p>
-<p>树莓派3b现在有了板载无线网卡，可以很方便的连接到wifi。但是无线路由器不能保证永远正常工作，由于各种原因会重启路由。这个时候，raspberry3b就会有一定概率断开网络连接。系统级功能比如像手机一样有网就连，断网后自动重连的功能目前没有能力实现。所以就想搞一个脚本检查网络连接状态，如果没有网络重启一下。</p>
-<p>##shell脚本</p>
-<pre><code>#! /bin/bash
-#检测网络连接
-log=/root/network.log
-#判断输出日志文件是否存在
-if [ ! -f ${log} ]
-then
-   touch ${log}
-fi
-ping -c 1 192.168.1.1 &gt; /dev/null 2&gt;&amp;1
-if [ $? -eq 0 ];then
-    #echo `date` 检测网络正常 &gt;&gt; ${log}
-else
-    echo `date` 检测网络异常 &gt;&gt; ${log}
-    reboot
-fi
-</code></pre><p>这个脚本基本上是ping路由地址（192.168.1.1）来判断无线的连接状态，$?是上一条命令执行的return值。ping通返回0，ping不通返回不是0。当ping不通的时候写下日志，然后重启系统（为什么不重启网络？我是真的不在家的时间有点长，所以没有胆量尝试）。</p>
-<p>##定时运行</p>
-<p>起初想用nodejs脚本定时运行，自己都觉得小题大作了。转而寻找用shell脚本实现的思路。查资料后发现linux系统本身有一个cron服务（俗称定时任务）。<br>修改/etc/crontab文件，添加一行 </p>
-<pre><code>*/5 *   * * *   root    bash /root/network.sh
-</code></pre><p>当系统时间的分钟整除5的时候就会以root身份调用一个后面的bash /root/network.sh命令。</p>
-
-      
+            <a href="/" title="回到主页"><i class="fa fa-home"></i></a>
+        
+        <a title="文章列表"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
+        
+            <a href="/2017/02/13/树莓派保持网络连接shell脚本/" title="下一篇: 树莓派保持网络连接shell脚本">
+                <i class="fa fa-angle-right"></i>
+            </a>
+        
     </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/raspberry-树莓派-shell-network/">raspberry,树莓派,shell,network</a></li></ul>
-    </div>
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
+    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2017/02/21/iOS利用Contacts-framework导入表格通讯录/">iOS利用Contacts.framework导入表格通讯录</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/02/13/树莓派保持网络连接shell脚本/">树莓派保持网络连接shell脚本</a></li></ul>
+    <script src="https://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
+    <script>
+        $(".post-list").addClass("toc-article");
+        $(".post-list-item a").attr("target","_blank");
+        $("#post-nav-button > a:nth-child(2)").click(function() {
+            $(".fa-bars, .fa-times").toggle();
+            $(".post-list").toggle(300);
+            if ($(".toc").length > 0) {
+                $("#toc, #tocButton").toggle(200, function() {
+                    if ($(".switch-area").is(":visible")) {
+                        $("#tocButton").attr("value", valueHide);
+                        }
+                    })
+            }
+            else {
+            }
+        })
+    </script>
 
 
 
-
-
-  
-  
+    <script>
+        
+    </script>
 </div>
       <footer id="footer">
     <div class="outer">

@@ -24,8 +24,8 @@ favicon: img/favicon.png
 ## RSS requires a plugin to take effect | 使用 RSS 需先安装对应插件
 ## https://github.com/hexojs/hexo-generator-feed
 subnav:
-  mail: "http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=PAkNDgsKBQ4MCnxNTRJfU1E"
-  github: "https://github.com/luuman"
+  mail: "http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=&#57;&#55;&#50;&#48;&#48;&#56;&#53;&#49;&#52;&#64;&#113;&#113;&#46;&#99;&#111;&#109;"
+  github: "https://github.com/caicai0/caicai0.github.io"
   zhihu: "#"
   weibo: "#"
   google: "#"
@@ -99,7 +99,7 @@ left_col_width: 300
 
 # 目录中标题不换行
 # Keep TOC title on the same line | 
-toc_nowrap: false
+toc_nowrap: true
 
 # 自定义"阅读全文"链接按钮的显示文字
 # Customize the text on excerpt link
@@ -123,7 +123,7 @@ tagcloud: true
 # Blogroll, Link exchange | 友情链接
 # friends: false
 friends:
-  name: http://luuman.github.io/
+  name: https://luuman.github.io/
 
 #是否开启“关于我”。
 aboutme: 纯海迷、爱运动、爱交友、爱旅行、喜欢接触新鲜事物、迎接新的挑战，更爱游离于错综复杂的编码与逻辑中
@@ -131,7 +131,7 @@ aboutme: 纯海迷、爱运动、爱交友、爱旅行、喜欢接触新鲜事�
 
 # 是否在新窗口打开链接
 # Open ALL link in a new tab
-open_in_new: false
+open_in_new: true
 
 # Customize feed link 自定义订阅地址
 rss: /atom.xml
@@ -145,7 +145,7 @@ fancybox: true
 
 # Display Math(LaTeX, MathML...) | 数学公式支持
 ## https://www.mathjax.org/
-mathjax: false
+mathjax: true
 
 # Socail Share | 是否开启分享
 # share: true
